@@ -1,7 +1,7 @@
 
 publish:
 	rm -rf ./dist
-	git clone git@github.com:lutzroeder/digger.git ./dist/gh-pages --branch gh-pages
+	git clone git@github.com:dakshcodess/digger.git ./dist/gh-pages --branch gh-pages
 	rm -rf ./dist/gh-pages/*
 	cp ./index.html ./dist/gh-pages/
 	git -C ./dist/gh-pages add --all
